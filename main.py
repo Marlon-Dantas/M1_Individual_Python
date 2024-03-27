@@ -1,4 +1,3 @@
-import time
 candidatos = [
     ("Bruno", "e5_t10_p8_s8"),
     ("Marlon", "e10_t7_p7_s8"),
