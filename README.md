@@ -1,7 +1,21 @@
-# M1_Individual_Python
-1º Projeto individual Python Resilia
-Implementação inicial do filtro de candidatos com base em notas mínimas
+# Sistema de Avaliação de Candidatos
 
+Este repositório contém um script Python simples que automatiza o processo de avaliação de candidatos com base em suas notas em diferentes categorias.
 
+## Descrição
 
-Este commit adiciona um script Python que define uma lista de candidatos e suas respectivas notas. O script solicita ao usuário que insira notas mínimas e, em seguida, verifica quais candidatos atendem a esses critérios. Se um candidato atender às notas mínimas em todas as categorias, seu nome e notas serão impressos; caso contrário, será exibida uma mensagem indicando que nenhum aluno passou.
+O script `main.py` permite aos recrutadores inserir notas mínimas para quatro categorias diferentes: entrevista, teste teórico, teste prático e soft skills. Os candidatos são então avaliados para verificar se atendem ou excedem essas notas mínimas. Se um candidato atender a todos os critérios, ele será considerado aprovado no processo de seleção.
+
+## Funcionalidades
+
+- Solicitação de notas mínimas de aprovação para cada categoria.
+- Avaliação de uma lista predefinida de candidatos com suas respectivas notas.
+- Impressão dos resultados, informando se os candidatos passaram ou não, com suas notas detalhadas.
+- Mensagem de saída caso nenhum candidato atenda aos critérios de aprovação.
+
+## Como Usar
+
+1. Clone o repositório para sua máquina local.
+2. Execute o script `main.py`.
+3. Insira as notas mínimas requeridas quando solicitado.
+4. Veja os resultados da avaliação no terminal.
