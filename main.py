@@ -1,3 +1,4 @@
+import time
 candidatos = [
     ("aluno1", "e5_t10_p8_s8"),
     ("aluno2", "e10_t7_p7_s8"),
@@ -22,3 +23,5 @@ for aluno in candidatos:
 
 if len(total) == 0:
     print("Nenhum canditado passou")
+
+time.sleep(5)
